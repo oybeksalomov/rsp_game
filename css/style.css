@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(255, 242, 0);
+}
+i {
+    font-size: 3rem;
+}
+.games img {
+    width: 3rem;
+    transition: 0.25s;
+}
+.games img:active {
+    transform: scale(1.1, 1.1);
+}
