@@ -5,9 +5,12 @@ i {
     font-size: 3rem;
 }
 .games img {
-    width: 3rem;
+    /* width: 3rem; */
     transition: 0.25s;
 }
 .games img:active {
     transform: scale(1.1, 1.1);
+}
+.personChoice img {
+    transform: scaleX(-1);
 }
