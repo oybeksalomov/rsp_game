@@ -8,6 +8,9 @@ i {
     /* width: 3rem; */
     transition: 0.25s;
 }
+.games img:hover {
+    transform: scale(1.1, 1.1);
+}
 .games img:active {
     transform: scale(1.1, 1.1);
 }
