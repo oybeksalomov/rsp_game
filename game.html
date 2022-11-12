@@ -14,9 +14,9 @@
 <body>
     <section id="game" class="text-center py-3">
         <div class="container-fluid container-md">
-            
+ 
             <!-- Person -->
-            <h1 class="fw-bold">Choose One</h1>
+            <h1 class="fw-bold mt-3">Choose One</h1>
             <div class="games row justify-content-center p-4">
                 <img src="img/rock.png" alt="rock picture" type="button" name="rock" class="col-4 col-sm-2 choice">
                 <img src="img/scissors.png" alt="scrissors picture" type="button" name="scissors" class=" col-4  col-sm-2 choice">
@@ -25,24 +25,25 @@
             <div class="row justify-content-center">
                 <!--Username-->
                 <div class="personChoice col col-sm-4 row">
-                    <h3 class="">Username</h3>
+                    <h3 class="username fw-bold">You</h3>
                     <div class="choiceBox user">
                         <img src="img/rock.png" alt="picture" class="col-6 col-sm-5 ">
                     </div>
-                    <h3>3</h3>
+                    <h3 class="userResult fw-bold">0</h3>
                 </div>
                 <!-- Computer -->
                 <div class="computerChoice col col-sm-4 row">
-                    <h3 class="">Computer</h3>
+                    <h3 class="fw-bold">Computer</h3>
                     <div class="choiceBox computer">
                         <img src="img/rock.png" alt="picture" class="col-6 col-sm-5">
                     </div>
-                    <h3>2</h3>
+                    <h3 class="computerResult fw-bold">0</h3>
                 </div>
             </div> 
             <h3 class="my-4 gameResult">Result!</h3>
             <div class="row px-3 justify-content-center">
-                <button type="button" class="btn btn-dark fw-bold mb-3 col-12 col-sm-3">Restart</button>   
+                <button class="btn btn-dark resetBtn fw-bold mb-3 me-1 col-12 col-sm-3">Restart</button>
+                <a href="./index.html" type="button" class="btn btn-dark fw-bold mb-3 col-12 col-sm-3">Exit</a>   
             </div>
 
         </div>

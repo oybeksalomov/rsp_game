@@ -14,3 +14,38 @@ i {
 .personChoice img {
     transform: scaleX(-1);
 }
+
+.startForm {
+    margin-top: 10rem;
+}
+/*user*/
+.userAnimation {
+    animation-name: userRock;
+    animation-duration: 0.5s;
+    animation-iteration-count: 2;
+}
+@keyframes userRock {
+    0% {}
+    50% {transform: rotate(-10deg);}
+    100% {transform: rotate(10deg);}
+}
+/*computer*/
+.compAnimation {
+    animation-name: compRock;
+    animation-duration: 0.5s;
+    animation-iteration-count: 2;
+}
+@keyframes compRock {
+    50% {transform: rotate(10deg);}
+    100% {transform: rotate(-10deg);}
+}
+/*winner animation*/
+
+.numberAnimation {
+    animation-name: numberCongs;
+    animation-duration: 0.5s;
+}
+@keyframes numberCongs {
+    50% {transform: scale(1.5, 1.5);}
+    100% {transform: scale(1, 1);}
+}
